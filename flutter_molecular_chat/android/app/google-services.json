@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "125169841354",
+    "firebase_url": "https://chatapp-80c10.firebaseio.com",
+    "project_id": "chatapp-80c10",
+    "storage_bucket": "chatapp-80c10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125169841354:android:d8a8670742f899642cb033",
+        "android_client_info": {
+          "package_name": "com.example.flutter_molecular_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125169841354-6n75b9olkc8r3ijfdhjap2uokful500c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkv6Lsg3l9d1fLYiYhuehB0aSGT3NbPyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125169841354-6n75b9olkc8r3ijfdhjap2uokful500c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

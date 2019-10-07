@@ -14,18 +14,15 @@ module.exports = {
 			path: "/api",
 			// RESTful aliases
 			aliases: {
-				"GET user/register": "register.list",
-				"GET user/register/:id": "register.get",
-				"POST user/register": "register.create",
-				"GET user/register/login": "register.getLogin",
-				"PUT user/register/:id": "register.update",
-				"DELETE user/register/:id": "register.remove",
-				
-			    "GET user/login": "register.loginList",
-				// "GET user/login/:id": "login.get",
-				"POST user/login": "register.login",
-				// "PUT user/login/:id": "login.update",
-				// "DELETE user/login/:id": "login.remove"
+				"POST user/register": "usermanagement.create",
+				"GET user/login": "usermanagement.loginList",
+				"POST user/login": "usermanagement.login",
+				"GET user/userList": "usermanagement.list",
+				"GET user/getRegID/:id": "usermanagement.get",
+				"GET user/getLoginID/login": "usermanagement.getLogin",
+				//"PUT user/usermanagement/:id": "usermanagement.update",
+				//"DELETE user/usermanagement/:id": "usermanagement.remove",
+			
 			  },
 			whitelist: [
 				// Access to any actions in all services under "/api" URL
