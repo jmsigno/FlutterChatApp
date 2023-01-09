@@ -20,7 +20,7 @@
     "moleculer-repl": "^0.5.7"
   },
   "dependencies": {
-    "firebase-admin": "^8.6.0",
+    "firebase-admin": "^11.4.1",
     "moleculer": "^0.13.9",
     "moleculer-web": "^0.8.5"
   },
